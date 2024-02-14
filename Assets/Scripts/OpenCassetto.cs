@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenBox : Interactable
+public class OpenCassetto : Interactable
 {
     private bool boxOpened;
-   // private bool coroutineAllowed;
+    private bool coroutineAllowed;
     private Vector3 initialPosition;
 
     // Start is called before the first frame update
     void Start()
     {
         boxOpened = false;
-        //coroutineAllowed = true;
+        coroutineAllowed = true;
         initialPosition = transform.position;
     }
 
@@ -32,30 +32,30 @@ public class OpenBox : Interactable
 
     private IEnumerator OpenThatDoor()
     {
-        //coroutineAllowed = false;
+        coroutineAllowed = false;
         if (!boxOpened)
         {
-            for (float i = 0f; i <= 0.5f; i += 0.1f)
+            for (float i = 0f; i <= 1f; i += 0.1f)
             {
-                transform.localPosition = new Vector3(transform.localPosition.x ,
+                transform.localPosition = new Vector3(transform.localPosition.x - 0.1f,
                     transform.localPosition.y,
-                    transform.localPosition.z + 0.05f);
+                    transform.localPosition.z);
                 yield return new WaitForSeconds(0f);
             }
             boxOpened = true;
         }
         else
         {
-            for (float i = 0.5f; i >= 0f; i -= 0.1f)
+            for (float i = 1f; i >= 0f; i -= 0.1f)
             {
-                transform.localPosition = new Vector3(transform.localPosition.x ,
+                transform.localPosition = new Vector3(transform.localPosition.x + 0.1f,
                     transform.localPosition.y,
-                    transform.localPosition.z - 0.05f);
+                    transform.localPosition.z);
                 yield return new WaitForSeconds(0f);
             }
             transform.position = initialPosition;
             boxOpened = false;
         }
-        //coroutineAllowed = true;
+        coroutineAllowed = true;
     }
 }
