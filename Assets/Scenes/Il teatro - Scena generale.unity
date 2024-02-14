@@ -8987,8 +8987,8 @@ OcclusionPortal:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921901506}
   m_Open: 1
-  m_Center: {x: 0.51, y: 1.0633866, z: 0}
-  m_Size: {x: 1.3299999, y: 2.4432266, z: 1}
+  m_Center: {x: 0.51, y: 0, z: 0}
+  m_Size: {x: 1.33, y: 4.57, z: 1}
 --- !u!114 &921901508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17397,8 +17397,8 @@ OcclusionPortal:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118768715}
   m_Open: 1
-  m_Center: {x: 0.5, y: 1.1413246, z: 0}
-  m_Size: {x: 1.48, y: 2.2473514, z: 1}
+  m_Center: {x: 0.5, y: 0, z: 0}
+  m_Size: {x: 1.48, y: 4.53, z: 1}
 --- !u!114 &2118768724
 MonoBehaviour:
   m_ObjectHideFlags: 0
