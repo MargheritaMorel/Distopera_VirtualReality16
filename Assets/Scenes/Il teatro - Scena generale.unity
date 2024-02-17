@@ -11789,6 +11789,11 @@ Transform:
   - {fileID: 1058312395}
   m_Father: {fileID: 1298288691}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &852704725 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3983353918920824184, guid: cdc19fa755cdd62408ae498374e11bd6, type: 3}
+  m_PrefabInstance: {fileID: 1971277298}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &856811038
 GameObject:
   m_ObjectHideFlags: 0
@@ -15642,6 +15647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4941942678163452, guid: 55e3225810887d5499f5bad81cc5a56e, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 9354
       objectReference: {fileID: 0}
     - target: {fileID: 4941942678163452, guid: 55e3225810887d5499f5bad81cc5a56e, type: 3}
@@ -15651,6 +15657,17 @@ PrefabInstance:
     - target: {fileID: 4941942678163452, guid: 55e3225810887d5499f5bad81cc5a56e, type: 3}
       propertyPath: m_LocalPosition.z
       value: -5044
+=======
+      value: 9361
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941942678163452, guid: 55e3225810887d5499f5bad81cc5a56e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1695
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941942678163452, guid: 55e3225810887d5499f5bad81cc5a56e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5026
+>>>>>>> beatrice
       objectReference: {fileID: 0}
     - target: {fileID: 4941942678163452, guid: 55e3225810887d5499f5bad81cc5a56e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -23247,9 +23264,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6426f4292de691744898fce2c8a701e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1892983069}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6426f4292de691744898fce2c8a701e0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1892983068}
   m_SourcePrefab: {fileID: 100100000, guid: 6426f4292de691744898fce2c8a701e0, type: 3}
 --- !u!4 &1892983066 stripped
 Transform:
@@ -23261,33 +23275,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6426f4292de691744898fce2c8a701e0, type: 3}
   m_PrefabInstance: {fileID: 1892983065}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1892983068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892983067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f92151edbd380c94598d27a82b1426c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  evento:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: GoToScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: StanzaIniziale
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &1892983069
 Animator:
   serializedVersion: 5
@@ -23706,12 +23693,15 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cdc19fa755cdd62408ae498374e11bd6, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1971277302}
+      addedObject: {fileID: 1971277304}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cdc19fa755cdd62408ae498374e11bd6, type: 3}
       insertIndex: -1
+<<<<<<< HEAD
       addedObject: {fileID: 1971277301}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cdc19fa755cdd62408ae498374e11bd6, type: 3}
       insertIndex: -1
+=======
+>>>>>>> beatrice
       addedObject: {fileID: 1971277303}
   m_SourcePrefab: {fileID: 100100000, guid: cdc19fa755cdd62408ae498374e11bd6, type: 3}
 --- !u!1 &1971277299 stripped
@@ -23719,7 +23709,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cdc19fa755cdd62408ae498374e11bd6, type: 3}
   m_PrefabInstance: {fileID: 1971277298}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &1971277301
+=======
+--- !u!65 &1971277303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971277299}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.21295519, y: 0.10998437, z: 0.17526892}
+  m_Center: {x: 0.0055238935, y: 0.020402376, z: -0.008140567}
+--- !u!114 &1971277304
+>>>>>>> beatrice
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23728,9 +23743,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1971277299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5526eb11977896f449cea0fc2110d4c6, type: 3}
+  m_Script: {fileID: 11500000, guid: 527ca139f10d4c24c9a81ede6f47451c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!114 &1971277302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23770,6 +23786,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.19055398, y: 0.12578441, z: 0.185506}
   m_Center: {x: 0.009520348, y: 0.017520882, z: 0.0046890485}
+=======
+  evento:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1892983069}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SiparioInterfaccia
+          m_BoolArgument: 0
+        m_CallState: 2
+  movingPieceT: {fileID: 852704725}
+  localYFinalPressedPos: 0
+  pressDuration: 0.7
+  releaseDuration: 0.1
+  unpressedColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
+  pressedColor: {r: 0.6531862, g: 0.8301887, b: 0.68774515, a: 0}
+>>>>>>> beatrice
 --- !u!1 &1973692336 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76cdff4bba2502d4199d8932c80c7e04, type: 3}
@@ -25253,7 +25292,7 @@ Transform:
   m_GameObject: {fileID: 2134880270}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: -0, y: 0.573, z: -0.6}
+  m_LocalPosition: {x: -6.8091593e-10, y: 0.573, z: -0.5979597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
